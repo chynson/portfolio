@@ -6,8 +6,8 @@ import Bio from "./components/Bio.tsx";
 function App() {
 
   return (
-    <div className="App">
-        <div className="px-20 md:px-60 lg:px-80 pt-64 pb-28 backdrop-blur-2xl bg-background">
+    <div className="App bg-background backdrop-blur-2xl flex justify-center">
+        <div className="w-full md:w-[600px] lg:w-[900px] pb-28 ">
             <Intro />
             <Bio />
             <Projects />

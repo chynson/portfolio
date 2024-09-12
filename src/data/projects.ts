@@ -1,40 +1,35 @@
 import project from "../types/project.ts";
+import images from "../types/images.ts";
 
 const projects: project[] = [
     {
-        title: "Project 1",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
-        link: "https://github.com"
+        title: "Evolving Creature Sim",
+        imgUrl: images.creatureSimImg,
+        stack: ["Python", "Pyxel"],
+        link: "https://github.com/heyitszackb/GA"
     },
     {
-        title: "Project 2",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
-        link: "https://github.com"
+        title: "Checkers AI",
+        imgUrl: images.checkersImg,
+        stack: ["Python"],
+        link: ""
     },
     {
-        title: "Project 3",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
-        link: "https://github.com"
+        title: "Mobile Karaoke",
+        imgUrl: "",
+        stack: ["React", "Typescript", "SQL"],
+        link: ""
     },
     {
-        title: "Project 4",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
-        link: "https://github.com"
+        title: "Data Validation Process",
+        imgUrl: "",
+        stack: ["C#", "SQL", ".NET"],
+        link: ""
     },
     {
-        title: "Project 5",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
-        link: "https://github.com"
-    },
-    {
-        title: "Project 6",
-        imgUrl: "https://via.placeholder.com/150",
-        stack: ["React", "TailwindCSS"],
+        title: "Portfolio Website",
+        imgUrl: images.portfolioImg,
+        stack: ["React", "Typescript", "TailwindCSS"],
         link: "https://github.com"
     },
 ];
