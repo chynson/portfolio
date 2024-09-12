@@ -29,7 +29,9 @@ function ProjectCard(project: IProject) {
                     ))}
                 </p>
             </div>
-            <ExpandedProjectModal expanded={cardExpanded} onClose={() => showExpandedCard(false)}/>
+            {cardExpanded &&
+                <ExpandedProjectModal expanded={cardExpanded} onClose={() => showExpandedCard(false)}/>
+            }
         </div>
     )
 }
