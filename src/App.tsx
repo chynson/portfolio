@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App bg-background backdrop-blur-2xl flex justify-center">
-        <div className="w-full md:w-[600px] lg:w-[900px] pb-28 ">
+        <div className="w-full sm:w-[700px] lg:w-[900px] pb-28 ">
             <Intro />
             <Bio />
             <Projects />

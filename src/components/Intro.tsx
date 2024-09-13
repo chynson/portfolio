@@ -4,7 +4,7 @@ function Intro() {
     return (
         <div className="flex flex-col h-screen justify-center">
             <div className="flex flex-col rounded-3xl bg-background transition-all duration-500 ease-in-out">
-                <h1 className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-secondary text-nowrap
+                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-secondary text-nowrap
                                mb-1 md:mb-3 mx-10">
                     Carl Hynson
                 </h1>
