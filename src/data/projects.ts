@@ -30,7 +30,7 @@ const projects: project[] = [
         title: "Portfolio Website",
         imgUrl: images.portfolioImg,
         stack: ["React", "Typescript", "TailwindCSS"],
-        link: "https://github.com"
+        link: "https://github.com/chynson/portfolio"
     },
 ];
 
