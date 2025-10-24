@@ -3,6 +3,12 @@ import images from "../types/images.ts";
 
 const projects: project[] = [
     {
+        title: "Pear",
+        imgUrl: images.pearImg,
+        stack: ["React", "Typescript", "NodeJS", "Firebase"],
+        link: ""
+    },
+    {
         title: "Evolving Creature Sim",
         imgUrl: images.creatureSimImg,
         stack: ["Python", "Pyxel"],
@@ -17,7 +23,7 @@ const projects: project[] = [
     {
         title: "Mobile Karaoke",
         imgUrl: "",
-        stack: ["React", "Typescript", "SQL"],
+        stack: ["React", "Typescript", "SQL", "NodeJS"],
         link: ""
     },
     {
